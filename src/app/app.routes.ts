@@ -1,8 +1,17 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { AboutComponent } from './components/about/about.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { PagenotfoundComponent } from './components/pagenotfound/pagenotfound.component';
 
 export const routes: Routes = [
-    {path: 'home-component', component: HomeComponent},
-    {path: 'header-component', component: HeaderComponent}
+    {path: '', component: HomeComponent},
+    {path: 'home', component: HomeComponent},
+    {path: 'header', component: HeaderComponent},
+    {path: 'footer', component: FooterComponent},
+    {path: 'about', component: AboutComponent},
+    {path: 'contact', component: ContactComponent},
+    {path: '**', component: PagenotfoundComponent}
 ];
