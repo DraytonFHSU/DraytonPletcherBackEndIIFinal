@@ -1,0 +1,13 @@
+.taskCard {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 10px;
+    padding: 2px 16px;
+  }
+
+.addCard{
+    margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}

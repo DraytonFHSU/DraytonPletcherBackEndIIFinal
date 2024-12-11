@@ -1,0 +1,27 @@
+<app-header></app-header>
+<form action="/action_page.php" #regForm="ngForm">
+    <div class="container">
+      <h1>Register</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+  
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" id="email" required
+        #username="ngModel" [(ngModel)]="user.email"
+      >
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" id="psw" required
+      #password="ngModel" [(ngModel)]="user.password"
+      >
+  
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required
+      #confirmPassword="ngModel" [(ngModel)]="user.confirmPassword"
+      >
+  
+      <button type="submit" class="registerbtn" (click)="reg()" [disabled]="regForm.invalid">Register</button>
+    </div>
+    
+  </form>
+<app-footer></app-footer>

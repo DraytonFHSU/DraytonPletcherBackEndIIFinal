@@ -1,19 +1,22 @@
 <app-header></app-header>
 <main>
+  <!-- Tasks -->
+  <ng-container *ngFor="let task of tasks">
     <div class="taskCard">
-        <h5 class="task-title black-text">Gardening</h5>
-        <div class="task-description">Sample data</div>
-        <button class="task-delete btn-flat" aria-label="Delete task"></button>
+        <h5 class="task-title black-text">{{task.name}}</h5>
+        <div class="task-description">{{task.description}}</div>
+        <button class="task-delete btn-flat" aria-label="Delete task">Delete Task</button>
     </div>
-    <!-- Tasks -->
-
+  </ng-container>
+    
+    <!-- Add Task -->
     <div class="addCard">
       <button
         class="btn-floating btn-large orange darken-2 sidenav-trigger"
         data-target="side-form"
         aria-label="Add new task"
       >
-        <i class="material-icons">add</i>
+        <i class="material-icons">Add task</i>
       </button>
     </div>
 
