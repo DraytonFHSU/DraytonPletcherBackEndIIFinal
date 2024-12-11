@@ -5,9 +5,10 @@ import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
-  declarations: [/*HttpClientModule*/],
+  declarations: [],
   imports: [
-    CommonModule
+    CommonModule,
+    HttpClientModule,
   ]
 })
 export class TaskModule { }

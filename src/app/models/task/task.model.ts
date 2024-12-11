@@ -1,4 +1,4 @@
-export interface task{
+export interface Task{
     _id: string;
     name: string;
     description: string;
