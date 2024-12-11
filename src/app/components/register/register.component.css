@@ -36,8 +36,7 @@ body {
   
   /* Set a style for the submit button */
   .registerbtn {
-    background-color: #04AA6D;
-    color: white;
+    background-color: #94fcb3;
     padding: 16px 20px;
     margin: 8px 0;
     border: none;
@@ -46,9 +45,6 @@ body {
     opacity: 0.9;
   }
   
-  .registerbtn:hover {
-    opacity: 1;
-  }
   
   /* Add a blue text color to links */
   a {
