@@ -27,13 +27,14 @@
             <a class="nav-link active" routerLink="/contact">Contact</a>
           </li>
         </ul>
-        <!-- <ng-container *ngfor="let item of navMenu">
+        <!--Tried using this to make a hamburger menu for mobile users, but it didn't seem to want to work-->
+        <ng-container *ngfor="let item of navMenu">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" [routerLink]="item.url">{{item.name}}</a>
             </li>      
           </ul>
-        </ng-container> -->
+        </ng-container>
       </div>
       <ul class="nav justify-content-end">
         <li class="nav-item">

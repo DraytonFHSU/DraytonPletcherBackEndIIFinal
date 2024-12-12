@@ -7,10 +7,11 @@ import { ContactComponent } from './components/contact/contact.component';
 import { PagenotfoundComponent } from './components/pagenotfound/pagenotfound.component';
 import { RegisterComponent } from './components/register/register.component';
 import { SigninComponent } from './components/signin/signin.component';
+import { TaskComponent } from './components/home/task/task.component';
 
 export const routes: Routes = [
     {path: '', component: HomeComponent},
-    {path: 'home', component: HomeComponent},
+    {path: 'home', component: HomeComponent, children: [{path: 'task', component: TaskComponent}]},
     {path: 'header', component: HeaderComponent},
     {path: 'footer', component: FooterComponent},
     {path: 'about', component: AboutComponent},

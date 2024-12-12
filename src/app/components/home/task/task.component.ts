@@ -2,10 +2,11 @@ import { Component } from '@angular/core';
 import { Task } from '../../../models/task/task.model';
 import { TaskService } from '../../../services/task.service';
 import { EventManagerPlugin } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-task',
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './task.component.html',
   styleUrl: './task.component.css'
 })
