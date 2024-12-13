@@ -10,6 +10,11 @@ export class TaskService {
   private apiUrl = 'http://localhost:3000/tasks';
   constructor(private http: HttpClient) {}
 
+  // Create Tasks
+  // createTasks(): Observable<Task[]> {
+  //   return this.http.post<Task[]>(`${this.apiUrl}`);
+  // }
+
   // Get Tasks
   getTasks(): Observable<Task[]> {
     return this.http.get<Task[]>(`${this.apiUrl}`);

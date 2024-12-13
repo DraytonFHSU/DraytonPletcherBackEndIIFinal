@@ -38,6 +38,19 @@ export class TaskComponent {
     })
   }
 
+  //createTask
+  // createTask(id: string, name: string, description: string){
+  //   if(id && name && description) {
+  //     this.taskService.createTask(id, name, description).subscribe((taskData) =>{
+  //       this.task= taskData;
+  //       console.log(taskData);
+  //     });
+  //   } else {
+  //     console.log('Please fill in all fields');
+  //   }
+
+  // }
+
   // Get Task
   getTask(id: string) {
     if(id) {

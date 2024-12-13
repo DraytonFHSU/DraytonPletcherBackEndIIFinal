@@ -1,2 +1,14 @@
 04-05-2023 	 10:57:10 	 7bcf96b7-51b4-4a45-b274-753ade4f26df 	 Error Not allowed by CORS 
 04-05-2023 	 10:57:11 	 d9dd1290-e7ab-4f8e-b7c5-6a258ed05844 	 Error Not allowed by CORS 
+12-12-2024 	 06:05:16 	 7d5f3b74-db9c-43ed-8b15-9444a11d7c2d 	 Error Not allowed by CORS 
+12-12-2024 	 06:05:19 	 c2a07f68-0480-4a46-9329-ab8309a51caf 	 Error Not allowed by CORS 
+12-12-2024 	 06:05:19 	 ab445411-ece3-4f35-9fa3-ec655dbb7726 	 Error Not allowed by CORS 
+12-12-2024 	 06:05:20 	 e97b8109-8356-4924-99f6-f9b0accc72a4 	 Error Not allowed by CORS 
+12-12-2024 	 06:07:52 	 8408b97a-e21b-4d40-8cb2-b4366ccbfbed 	 Error Not allowed by CORS 
+12-12-2024 	 06:07:53 	 95a7c6ff-1733-4634-90af-5a78615438c6 	 Error Not allowed by CORS 
+12-12-2024 	 06:07:56 	 d947c7d7-3f0a-448e-b0a1-9f9c2baa0875 	 Error Not allowed by CORS 
+12-12-2024 	 06:07:59 	 dee9e671-0291-4420-b480-40caa8ae1eec 	 Error Not allowed by CORS 
+12-12-2024 	 07:10:40 	 540fab3d-bf5f-4eb8-b3ad-c1c527183f5f 	 Error Not allowed by CORS 
+12-12-2024 	 07:41:43 	 337d8c48-34f9-4f77-b926-005b0979b2ef 	 SyntaxError Expected ',' or ']' after array element in JSON at position 71 
+12-12-2024 	 07:42:13 	 25c2528c-743f-4c4b-b662-b8458635c2d5 	 SyntaxError Unexpected token '}', ..."abase"},
+}]" is not valid JSON 

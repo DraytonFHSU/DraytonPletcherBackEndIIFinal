@@ -11,6 +11,7 @@ const GetTasks = async (req, res) => {
 //Create Task
 const CreateNewTask = async (req, res) => {
   if (!req.body.name || !req.body.description) {
+    console.log(req.body.name)
     return res
       .status(400)
       .json({ message: "Name and Description are required" });

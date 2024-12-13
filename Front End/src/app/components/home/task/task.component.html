@@ -3,22 +3,13 @@
     <div class="taskCard">
         <h5 class="task-title black-text">{{task.name}}</h5>
         <div class="task-description">{{task.description}}</div>
+        <!-- <button class="task-edit btn-flat" aria-label="Edit task" (click)="updateTask(task.name, task.description)">Edit Task</button> -->
         <button class="task-delete btn-flat" aria-label="Delete task" (click)="deleteTask(task._id)">Delete Task</button>
     </div>
 </ng-container>
 
 <!-- Add Task -->
-<div class="addCard">
-    <button
-      class="btn-floating btn-large orange darken-2 sidenav-trigger"
-      data-target="side-form"
-      aria-label="Add new task"
-    >
-      <i class="material-icons">Add task</i>
-    </button>
-  </div>
-
-  <div id="side-form" class="sidenav side-form">
+<!-- <div id="side-form" class="sidenav side-form">
     <form class="add-task container section">
       <h6 id="form-header">Add New Task</h6>
       <div class="divider"></div>
@@ -54,4 +45,4 @@
         </button>
       </div>
     </form>
-  </div>
+  </div> -->
